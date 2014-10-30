@@ -8,6 +8,11 @@
          get { return _expression; }
       }
 
+      protected UnaryExpression(IExpression expression)
+      {
+         _expression = expression;
+      }
+
       public abstract void Print();
    }
 }
