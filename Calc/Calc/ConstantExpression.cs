@@ -6,6 +6,11 @@ namespace Calc
    {
       private int _value;
 
+      public ConstantExpression( int value )
+      {
+         _value = value;
+      }
+
       public void Print()
       {
          Console.Write( _value.ToString() );
