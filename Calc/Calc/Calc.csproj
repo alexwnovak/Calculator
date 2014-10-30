@@ -43,7 +43,7 @@
   <ItemGroup>
     <Compile Include="ConstantExpression.cs" />
     <Compile Include="IExpression.cs" />
-    <Compile Include="IUnaryExpression.cs" />
+    <Compile Include="UnaryExpression.cs" />
     <Compile Include="NegateOperation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

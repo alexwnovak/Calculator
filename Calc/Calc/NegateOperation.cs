@@ -1,8 +1,8 @@
 ﻿namespace Calc
 {
-   public class NegateOperation : IUnaryExpression
+   public class NegateOperation : UnaryExpression
    {
-      public void Print()
+      public override void Print()
       {
          throw new System.NotImplementedException();
       }
